@@ -1,0 +1,8 @@
+{
+  "name": "gitSample",
+  "version": "1.0.0",
+  "description": "sample of the usage of git",
+  "main": "index.js",
+  "author": "MothyLag",
+  "license": "MIT"
+}
