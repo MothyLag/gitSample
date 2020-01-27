@@ -66,3 +66,5 @@ esto viene en dos partes que llamaremos, crear repositorio desde la aplicación,
 ### Crear repositorio desde la aplicación
 
 para este apartado utilizaremos como ejemplo la plataforma de github aunque es bastante parecido en otras plataformas de repositorios.
+
+![git image](https://github.com/MothyLag/gitSample/blob/master/src/img/newRepo.png)
