@@ -75,3 +75,25 @@ y finalmente rellenar el formulario con los siguientes datos:
 nombre del repositorio, descripción y seleccionar si el repositorio será privado o público
 
 ![git image](https://github.com/MothyLag/gitSample/blob/master/src/img/newRepoForm.png)
+
+### Inicializar repositorio desde el proyecto
+
+#### inicialización desde 0
+
+Para inicializar un proyecto en git desde cero primero debemos incluir los archivos necesarios para llevar acabo el control de versiones, para esto correremos la instrucción:
+
+```bash
+$ git init
+```
+
+después de esto pasaremos a clonar el repositorio en nuestro proyecto
+
+```bash
+$ git remote add origin:MothyLag/gitSample.git
+```
+
+donde:
+
+- **origin** es un alias para el workspace local, por lo general se deja en origin,
+- **MothyLag** es el owner del proyecto
+- **gitSample** es el nombre del repositorio
