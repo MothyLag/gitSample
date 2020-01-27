@@ -78,7 +78,7 @@ nombre del repositorio, descripción y seleccionar si el repositorio será priva
 
 ### Inicializar repositorio desde el proyecto
 
-#### inicialización desde 0
+#### inicialización desde cero
 
 Para inicializar un proyecto en git desde cero primero debemos incluir los archivos necesarios para llevar acabo el control de versiones, para esto correremos la instrucción:
 
@@ -89,11 +89,26 @@ $ git init
 después de esto pasaremos a clonar el repositorio en nuestro proyecto
 
 ```bash
-$ git remote add origin:MothyLag/gitSample.git
+$ git remote add git@github.com:MothyLag/gitSample.git
 ```
 
 donde:
 
-- **origin** es un alias para el workspace local, por lo general se deja en origin,
+- **origin** es un alias para el workspace local, por lo general se define como origin,
 - **MothyLag** es el owner del proyecto
 - **gitSample** es el nombre del repositorio
+
+### inicialización desde un proyecto ya comenzado
+
+si un proyecto ya está comenzado desde el repositorio de github, y desesas bajarlo a tu terminal para trabajar, tienes que hacer algo llamado "clonar el repositorio", que es obtener una copia esacta del proyecto que se encuentra en el repositorio, para esto ejecutaremos la siguiente instrucción.
+
+```bash
+git clone git@github.com:MothyLag/gitSample.git
+```
+
+donde:
+
+- **MothyLag** es el owner del proyecto
+- **gitSample** es el nombre del repositorio
+
+e inmediatamente tendremos el proyecto en nuestro equipo.
