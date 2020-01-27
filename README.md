@@ -98,6 +98,14 @@ donde:
 - **MothyLag** es el owner del proyecto
 - **gitSample** es el nombre del repositorio
 
+finalmente para subir el proyecto al repositorio se ejecutan las siguientes instrucciónes
+
+```bash
+$ git add .
+$ git commit -m"cualquier mensaje"
+$ git push -u origin master
+```
+
 ### inicialización desde un proyecto ya comenzado
 
 si un proyecto ya está comenzado desde el repositorio de github, y desesas bajarlo a tu terminal para trabajar, tienes que hacer algo llamado "clonar el repositorio", que es obtener una copia esacta del proyecto que se encuentra en el repositorio, para esto ejecutaremos la siguiente instrucción.
@@ -112,3 +120,40 @@ donde:
 - **gitSample** es el nombre del repositorio
 
 e inmediatamente tendremos el proyecto en nuestro equipo.
+
+## Subir cambios
+
+para subir cambios a la rama actual de tu repositorio se necesitan hacer 3 pasos:
+
+- agregar los cambiós al stage
+- hacer un commit de los cambios en el stage
+- subir el commit al repositorio
+
+primero agregamos los archivos al stage:
+
+```bash
+$ git add .
+```
+
+el punto es para indicar que se agregaran todos los archivos que se han modificado,
+pero también se pueden agregar cada uno de los archivos de manera individual
+
+```bash
+$ git add package.json
+```
+
+después procedemos a hacer un commit del cambio que estamos realizando
+
+```bash
+$ git commit -m"mensaje"
+```
+
+donde:
+
+- **-m** es para indicar el parametro del mensaje que aparecerá en el commit
+
+y finalmente subimos los cambios a la rama actual del repositorio
+
+```bash
+$ git push
+```
