@@ -30,14 +30,16 @@ que ejectuara git en la terminal, o si no lo tienes instalado te enviara el prom
 
 para sistemas basados en debian solo se necesita correr en terminal:
 
-```
+```bash
 sudo apt-get install git
 
 ```
 
+para sistemas basados en arch solo se necesita correr en terminal:
+
 #### Arch Based
 
-```
+```bash
 yum install git
 
 ```
