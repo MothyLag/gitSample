@@ -67,4 +67,11 @@ esto viene en dos partes que llamaremos, crear repositorio desde la aplicación,
 
 para este apartado utilizaremos como ejemplo la plataforma de github aunque es bastante parecido en otras plataformas de repositorios.
 
+solo debes dar click en el enorme boton verde que tiene la leyenda "New"
+
 ![git image](https://github.com/MothyLag/gitSample/blob/master/src/img/newRepo.png)
+
+y finalmente rellenar el formulario con los siguientes datos:
+nombre del repositorio, descripción y seleccionar si el repositorio será privado o público
+
+![git image](https://github.com/MothyLag/gitSample/blob/master/src/img/newRepoForm.png)
