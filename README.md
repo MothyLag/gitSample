@@ -158,6 +158,10 @@ y finalmente subimos los cambios a la rama actual del repositorio
 $ git push
 ```
 
+#### Nota: para subir cambios necesitas tener actualizado tu espacio de trabajo.
+
 ## Descargar Cambios
 
-Para descargar los cambios primero debemos tener nuestra rama limpia, así que tendremos que descargar los cambios que se encuentren en el repositorio en el caso de no tenerlos actualizados.
+```bash
+$ git pull
+```
