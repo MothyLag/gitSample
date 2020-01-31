@@ -165,3 +165,17 @@ $ git push
 ```bash
 $ git pull
 ```
+
+## Crear rama y cambiar rama
+
+para cambiar a una rama ya existente se utiliza el comando
+
+```bash
+$ git checkout <nombre_de_la_rama>
+```
+
+en cazó de que la rama aun no exista se utiliza el el comando
+
+```git
+$ git checkout -b <nombre_de_la rama>
+```
